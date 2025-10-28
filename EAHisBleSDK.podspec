@@ -7,7 +7,7 @@
 #
 
 Pod::Spec.new do |s|
-  s.name             = 'EABluetooth'
+  s.name             = 'EAHisBleSDK'
   s.version          = '1.1.25.3'
   s.summary          = 'A short description of EABluetooth.'
 
