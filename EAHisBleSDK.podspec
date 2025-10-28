@@ -32,13 +32,9 @@ TODO: Add long description of the pod here.
   
   s.swift_versions = "5.9"
   
-  s.source_files = ['SDK_File/EABluetooth/Classes/**/*','*.{swift}']
+  s.source_files = ['EABluetooth/Classes/**/*','*.{swift}']
   
-  # s.resource_bundles = {
-  #   'EAModularity' => ['EAModularity/Assets/*.png']
-  # }
 
-  # s.public_header_files = 'Pod/Classes/**/*.h'
   s.frameworks   = "UIKit", "Foundation","CoreGraphics"
 
 
@@ -52,7 +48,6 @@ TODO: Add long description of the pod here.
   
 
 
-# s.resources = "Resources/*"  #工程需要引入的资源文件（图片，xib等）
   s.resource_bundles = {'EAWatchFace' => ['EAWatchFace.bundle/*']} #工程需要引入的bundle
   s.ios.vendored_frameworks = ['EABluetooth.framework','SCompressLib.framework']
 
